@@ -1,0 +1,13 @@
+.git
+.DS_Store
+__pycache__
+*.py[cod]
+.pytest_cache
+input
+output
+work
+*.tar
+*.tar.gz
+*.mha
+*.nii
+*.nii.gz

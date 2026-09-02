@@ -1,0 +1,19 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Third-party checkpoints are required to build the final image but are not
+# redistributed with this source repository.
+third_party/autoPET-interactive/_model/*
+!third_party/autoPET-interactive/_model/.gitkeep
+
+# Challenge inputs, outputs, Docker exports, and build by-products.
+input/
+output/
+work/
+*.tar
+*.tar.gz
+*.mha
+*.nii
+*.nii.gz
